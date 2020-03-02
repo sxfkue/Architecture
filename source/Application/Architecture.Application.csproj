@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.Security" Version="10.27.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Database\Architecture.Database.csproj" />
+    </ItemGroup>
+</Project>
